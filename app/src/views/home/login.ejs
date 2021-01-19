@@ -4,12 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="/css/home/login.css">
   <script src="/js/home/login.js" defer></script>
   <title>Document</title>
 </head>
 <body>
-  <input id="id" type="text" placeholder="아이디"><br>
-  <input id="psword" type="text" placeholder="비밀번호"><br>
-  <button>로그인</button>
+  <div class="login-page">
+    <div class="form">
+      <form class="login-form">
+        <input id="id" type="text" placeholder="아이디"/>
+        <input id="psword" type="password" placeholder="비밀번호"/>
+        <button>login</button>
+        <p class="message">Not registered? <a href="/register">Create an account</a></p>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
+
+<!-- Copyright (c) 2021 by Aigars Silkalns (https://codepen.io/colorlib/pen/rxddKy) -->
